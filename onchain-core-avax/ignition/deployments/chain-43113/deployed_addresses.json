@@ -1,0 +1,7 @@
+{
+  "AgentEcosystemModule#AgentTreasury": "0xA8A6Ac2C54caa755C0B91930AC6e80a726C5B5E8",
+  "AgentEcosystemModule#AgentRegistry": "0xFc2aF8B306fa27f5FD8739B7B1D713DAe263bAFe",
+  "AgentEcosystemModule#AgentPass": "0xc5e7Ba73e9d3Fb1B80037F56d03f707Af0ebAF32",
+  "TestTokenModule#Token": "0x4D33Db3773e9D83E67e317cD374199c791465Bfa",
+  "TokenModule#TokenFaucet": "0xEf4386e91d63A97070D349C3B5Bb302b847E221f"
+}
