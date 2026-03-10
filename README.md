@@ -74,7 +74,7 @@ User Wallet
 1. Clone the repository:
     ```bash
     git clone https://github.com/Matik86/mibboverse-prototype-avax-build-games.git
-    cd mibboverse-prototype
+    cd mibboverse-prototype-avax-build-games
     ```
 
 2. Run the Demo UI:
