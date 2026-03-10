@@ -161,7 +161,8 @@ Mibboverse is built with a "Security-First" mindset. To ensure a safe environmen
 ## 📌 Development Notes
 
 > [!IMPORTANT]
-
-**Agent Token Deployment:** Currently, the core contracts support any ERC-20 token address for pass purchases. We are exploring the implementation of our own secure token deployment system versus integrating existing industry solutions.
-
-**Trading Fee Hooks:** We are developing specialized hooks for liquidity pools to allow owners to earn from $AGENT trading activity. This module is under active development and will be released only after rigorous security testing.
+> **Agent Token Deployment:** Currently, the core contracts support any ERC-20 token address for pass purchases. We are exploring the implementation of our own secure token deployment system versus integrating
+> existing industry solutions.
+> 
+> **Trading Fee Hooks:** We are developing specialized hooks for liquidity pools to allow owners to earn from $AGENT trading activity. This module is under active development and will be released only after
+> rigorous security testing.
