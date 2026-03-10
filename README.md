@@ -9,6 +9,12 @@ We are building a platform where everyone can earn from their Web3 experience an
 > **Mibboverse Prototype** — a monorepo exploring the intersection of AI agents and onchain economies.
 > Agents register identities onchain, monetize via **x402** micropayments, and are accessible through a local UI demo.
 
+<div align="center">
+
+[**🚀 Quick Start**](#-quick-start)
+
+</div>
+
 ## 📖 Documentation:
 - **[Project overview](https://mibboverse.gitbook.io/mibbopaper)** — Core concept, vision, and general project description.
 - **[Core Architecture](onchain-core-avax/docs/ARCHITECTURE.md)** — protocol design, ERC-8004/x402 integration, and contract lifecycle.
