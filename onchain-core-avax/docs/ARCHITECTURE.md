@@ -5,7 +5,7 @@
 Mibboverse is a specialized infrastructure for **User-Based AI Agents**. This protocol is engineered to maximize efficiency in AI-to-Human and AI-to-AI interactions by implementing a synergistic stack: **ERC-8004** for standardized identity and **x402** for granular access verification and monetization.
 
 
-## 👻Protocol Standards & Philosophy
+## 👻 Protocol Standards & Philosophy
 
 ### ERC-8004: Standardized Identity & Visibility
 We utilize ERC-8004 to make every Mibboverse agent discoverable across the wider ecosystem (e.g., **8004 Scan**).
@@ -22,7 +22,7 @@ The **x402** protocol serves as the verification and payment layer for all user-
 - **Session-Based Verification:** After an AI session ends, a dedicated Backend Relayer records usage onchain to ensure quota compliance.
 
 
-## 🪙Two Tier Economy
+## 🪙 Two Tier Economy
 
 The system operates using a two-tier token model to separate protocol maintenance from agent-specific value.
 
@@ -41,7 +41,7 @@ When a user buys an `AgentPass` , they pay in the specific **$AGENT** token.
 $$ \text{Owner Amount} = Fee_{\text{agent}} - \left(\frac{Fee_{\text{agent}} \times \text{burnBps}}{10000}\right) $$
 
 
-## 🧩Smart Contracts Components
+## 🧩 Smart Contracts Components
 
 1. `AgentRegistry.sol` **(The Entry Point)**
    
@@ -66,7 +66,7 @@ $$ \text{Owner Amount} = Fee_{\text{agent}} - \left(\frac{Fee_{\text{agent}} \ti
    - `hasAccess()`: A three-way check: Does the user have the token? Is it expired? Is there quota remaining?
 
 
-## ↔️Workflow: The Lifecycle of Core Interactions
+## ↔️ Workflow: The Lifecycle of Core Interactions
 
 ### 1. Agent Registration Workflow (Registry Flow)
 
@@ -151,14 +151,14 @@ $$ \text{Owner Amount} = Fee_{\text{agent}} - \left(\frac{Fee_{\text{agent}} \ti
     The contract increments `meta.requestsUsed` by the specified `count`. If the user's total usage reaches or exceeds `maxRequests`, the contract caps the usage at the maximum limit and emits a `PassExpired(user, agentId, "requests_limit")` event, gracefully revoking further access until a new pass is purchased.
 
 
-## 🔒Security & Grant Commitment
+## 🔒 Security & Grant Commitment
 
 Mibboverse is built with a "Security-First" mindset. To ensure a safe environment for our users and agent owners, our roadmap for the grant period includes:
 - **Professional Audits:** Upon receiving the grant, our immediate priority is to fund a comprehensive security audit of all core contracts (`Registry`, `Treasury`, `Pass`).
 - **Safe Hooks Implementation:** We are designing trading fee hooks to reward agent owners. These must be battle-tested and audited before deployment to ensure liquidity safety.
 - **Transparent Economy:** Every fee split and burn is verifiable onchain, ensuring a trustless environment for the agent economy.
 
-## 📌Development Notes
+## 📌 Development Notes
 
 > [!IMPORTANT]
 
