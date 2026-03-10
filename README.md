@@ -94,8 +94,8 @@ User Wallet
     ```
 
 Full setup details in each module's **README**:
-- [onchain-core-avax/README.md](onchain-core-avax/README.md)
 - [demo/README.md](demo/README.md)
+- [onchain-core-avax/README.md](onchain-core-avax/README.md)
 
 ## 🏛️ Agentic Economy
 
