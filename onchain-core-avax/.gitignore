@@ -19,6 +19,8 @@
 # Hardhat coverage reports
 /coverage
 
+ignition/modules/deployments/
+
 .env
 
 # Logs
