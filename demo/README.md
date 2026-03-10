@@ -57,7 +57,7 @@ demo/
 | `npm run preview` | Preview production build locally |
 | `npm run lint` | Run ESLint |
 
-## ❓How It Works
+## ❓ How It Works
 Every agent exposes an **x402-gated API endpoint**. When you send a request through the UI:
 
    1. `client.js` intercepts the request and attaches a signed payment proof to the HTTP header
