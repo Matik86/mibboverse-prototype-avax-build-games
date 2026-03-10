@@ -67,7 +67,7 @@ User Wallet
 
 1. Clone the repository:
     ```bash
-    git clone {}
+    git clone https://github.com/Matik86/mibboverse-prototype-avax-build-games.git
     cd mibboverse-prototype
     ```
 
