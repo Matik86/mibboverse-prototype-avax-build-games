@@ -18,7 +18,7 @@ All contracts are deployed on **Avalanche Fuji Testnet**
 ## Structure 
 
 ```
-onchain-core/
+onchain-core-avax/
 ├── 📂 contracts/             # Core Smart Contracts (Solidity)
 │   ├── 📂 interfaces/        # System types and Interface definitions (IAgent...)
 │   ├── 📂 mocs/              # Mock contracts for testing and proxy implementations
