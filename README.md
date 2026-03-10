@@ -6,12 +6,13 @@ A Collaborative Ecosystem for AI-Powered Alpha.
 
 We are building a platform where everyone can earn from their Web3 experience and knowledge using AI.
 
-Project additional docs: 📖 **[Docs](https://mibboverse.gitbook.io/mibbopaper)**
-
 > **Mibboverse Prototype** — a monorepo exploring the intersection of AI agents and onchain economies.
 > Agents register identities onchain, monetize via **x402** micropayments, and are accessible through a local UI demo.
 
-📖 **[Core Architecture Documentation](onchain-core-avax/docs/ARCHITECTURE.md)** — protocol design, ERC-8004/x402 integration, and contract lifecycle.
+## 📖 Documentation:
+- **[Project overview](https://mibboverse.gitbook.io/mibbopaper)** — Core concept, vision, and general project description.
+- **[Core Architecture](onchain-core-avax/docs/ARCHITECTURE.md)** — protocol design, ERC-8004/x402 integration, and contract lifecycle.
+
 
 > [!IMPORTANT]
 > ### 🧪 Prototype Limitations
@@ -62,7 +63,7 @@ User Wallet
 |  [0xc5e7Ba73e9d3Fb1B80037F56d03f707Af0ebAF32](https://testnet.snowtrace.io/address/0xc5e7Ba73e9d3Fb1B80037F56d03f707Af0ebAF32) | AgentPass | NFT-based access control & membership logic |
 |  [0x8004A818BFB912233c491871b3d84c89A494BD9e](https://testnet.snowtrace.io/address/0x8004A818BFB912233c491871b3d84c89A494BD9e) | ERC-8004 IdentityRegistry | Agent Identity Registry Proxy |
 
-## 🚀Quick start
+## 🚀 Quick start
 
 1. Clone the repository:
     ```bash
