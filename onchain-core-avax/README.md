@@ -50,7 +50,7 @@ onchain-core/
 - Viem + `node:test` helpers for the interaction script & integration scenarios.
 - Ignition modules for seeded deployments (`AgentEcosystem`, `TestToken`).
 
-## 🚀Quick start
+## 🚀 Quick start
 
 > To run this project locally, you need **Node.js** and **Hardhat** installed.
 
@@ -95,7 +95,7 @@ onchain-core/
    ```
    > *For details on what this script does, see the section* [Full Lifecycle Simulation](#full-lifecycle-simulation--e2e-workflow)
 
-## 🧪Tests (Optional)
+## 🧪 Tests (Optional)
 
 To run all tests, execute this command:
 
@@ -103,7 +103,7 @@ To run all tests, execute this command:
 npx hardhat test
 ```
 
-## ✨Ignition deployments (Optional)
+## ✨ Ignition deployments (Optional)
 
 1. Seed the AgentEcosystem stack (registry, treasury, pass) on a chosen network.
    ```bash
@@ -117,7 +117,7 @@ npx hardhat test
    > already deployed on the Avalanche Fuji network at: `0xEf4386e91d63A97070D349C3B5Bb302b847E221f`
 
 
-## 🔄Full Lifecycle Simulation | E2E Workflow
+## 🔄 Full Lifecycle Simulation | E2E Workflow
 
 This is the primary script for dev to verify the entire ecosystem. It automates the full journey of an AI Agent — from onchain identity creation to monetization and usage.
 
