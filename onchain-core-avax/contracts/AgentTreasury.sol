@@ -167,7 +167,7 @@ contract AgentTreasury is Ownable, EIP712, IERC721Receiver {
     // ─────────────────────────────────────────
 
     /// @notice Updates metadata for a specific agent via meta-transaction
-    /// @dev Requires a valid signature from an authorized admin
+    /// @dev Requires a valid signature from an authorized admin.
     /// @param agentId The ERC-8004 token ID of the agent
     /// @param key The metadata key to update (e.g., "endpoint", "version")
     /// @param value The new metadata value encoded as bytes
